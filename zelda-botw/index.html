@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html manifest="savegame-editor.appcache">
+<html >
 <head>
 	<title>Savegame Editor &ndash; The legend of Zelda: Breath of the wild</title>
 	<meta http-equiv="content-Type" content="text/html; charset=UTF-8"/>
@@ -98,6 +98,10 @@
 		<div class="three columns"><input id="float-pos-z" class="full-width" type="text" /></div>
 	</div>
 	<div class="row">
+		<div class="nine columns"><label for="float-pos-d">Rotation Degrees</label></div>
+		<div class="three columns"><input id="float-pos-d" class="full-width" type="text" /></div>
+	</div>
+	<div class="row">
 		<div class="seven columns"><label for="input-pos-map">Map (44A0)</label></div>
 		<div class="two columns text-right">
 			<button onclick="guessMainFieldGrid()">Guess</button>
@@ -107,8 +111,26 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="nine columns"><label for="input-pos-maptype">Map Type (DC658)</label></div>
-		<div class="three columns"><input id="input-pos-maptype" class="full-width" type="text" /></div>
+		<div class="seven columns"><label for="input-pos-maptype">Map Type (DC658)</label></div>
+		<div class="two columns text-right">
+			<button onclick="setDungeon()">CDungeon</button>
+		</div>
+		<div class="three columns">
+				<input id="input-pos-maptype" class="full-width" type="text" />
+		</div>	
+	</div>
+	<div class="row">
+		<div class="twelve columns">
+			<p>
+				Map: Either a grid location like A-1 for the MainField or AoCField, DungeonXXX for Trials, RemainsFire, RemainsWater, RemainsElectric, RemainsWind for Vah Rudania, Vah Ruta, Vah Naboris, Vah Medoh, or FinalTrial for the Final Trial.
+			</p>
+			<p>
+				MapType: MainField for normal game map, AoCField for Sword Monk Trial, CDungeon for trials, MainFieldDungeon for Final Trial or Divine Beasts.
+			</p>
+			<p>
+				Press "Guess" to set grid location based on X,Y,Z Coordinates. Press Fix for Dungeon to reset X, Y, Z values to the starting point for the typed dungeon. Note for AocField, grid location doesn't matter.
+			</p>
+		</div>
 	</div>
 	<div class="row">
 		<div class="nine columns"><label for="float-pos-x-horse">Horse X</label></div>

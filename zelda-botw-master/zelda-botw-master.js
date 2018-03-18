@@ -134,7 +134,7 @@ SavegameEditor={
 					input.checked=true;
 				get('the-editor').appendChild(row(
 					[8,4],
-					label(input.id,hash.id),
+					label(input.id,(hash.id + ' ('+ (hash.offset+4).toString(16) +')') ),
 					input
 				));
 			}else if(hash.type==='s32'){
@@ -143,13 +143,22 @@ SavegameEditor={
 				input.addEventListener('change', setS32);
 				get('the-editor').appendChild(row(
 					[8,4],
-					label(input.id,hash.id),
+					label(input.id,(hash.id + ' ('+ (hash.offset+4).toString(16) +')') ),
+					input
+				));
+			}else if(hash.type==='f32'){
+				var input=inputNumber(hash.id, 0, 0xffffffff, tempFile.readFloat32(hash.offset+4));
+				input.offset=hash.offset+4;
+				input.addEventListener('change', setS32);
+				get('the-editor').appendChild(row(
+					[8,4],
+					label(input.id,(hash.id + ' ('+ (hash.offset+4).toString(16) +')') ),
 					input
 				));
 			}else{
 				get('the-editor').appendChild(row(
 					[12],
-					span(hash.id+' ('+hash.type+')')
+					span(hash.id+' ('+hash.type+') ' + (hash.offset+4).toString(16))
 				));
 			}
 		}

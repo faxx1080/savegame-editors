@@ -22,7 +22,11 @@ SavegameEditor={
 		MAP_ICONS: 0x9383490e,
 		MAP_POS: 0xea9def3f,
 		PLAYER_LOCATION: 0xa40ba103,
-		ICON_TYPES:{SWORD: 27, BOW:28, SHIELD:29, POT:30, STAR:31, CHEST:32,SKULL:33,LEAF:34,TOWER:35}
+		PLAYER_ROTATION: 0x6293b955,
+		ICON_TYPES:{SWORD: 27, BOW:28, SHIELD:29, POT:30, STAR:31, CHEST:32,SKULL:33,LEAF:34,TOWER:35},
+		/* X, Y, Z, Rotation(Degrees) */
+		CDUNGEON_STARTS: {"Dungeon000": [-2.0, 10.0, 26.5, -90.0], "Dungeon001": [-58.0, 12.0, 75.5, -90.0], "Dungeon002": [25.5, 10.0, 22.0, -90.0], "Dungeon003": [24.0, 10.0, 80.0, -90.0], "Dungeon004": [0.0, 14.0, 26.0, -180.0], "Dungeon005": [-23.5, -30.5, 34.5, 180.0], "Dungeon006": [-0.5, 10.0, 77.5, -180.0], "Dungeon007": [-33.0, 7.0, 4.0, -90.0], "Dungeon008": [-75.0, 31.5, 48.0, 180.0], "Dungeon009": [-18.0, 16.0, 85.5, 90.0], "Dungeon010": [52.0, 7.0, -3.0, -90.0], "Dungeon011": [-1.0, 10.0, 30.0, 180.0], "Dungeon012": [0.0, 14.0, 75.5, -180.0], "Dungeon013": [-28.0, 31.0, 77.5, -180.0], "Dungeon014": [-2.5, -6.025, 69.5, -90.0], "Dungeon015": [-39.0, 20.0, 7.5, -180.0], "Dungeon016": [25.5, 16.0, 22.0, 90.0], "Dungeon017": [22.0, 14.0, 26.0, 90.0], "Dungeon018": [0.0, 10.0, -26.0, -180.0], "Dungeon019": [0.0, 14.0, 26.0, 90.0], "Dungeon020": [0.0, 10.0, 27.0, -90.0], "Dungeon021": [0.0, 18.0, 24.2, 90.0], "Dungeon022": [0.0, 22.0, 56.0, -90.0], "Dungeon023": [-2.0, 18.0, 30.0, -90.0], "Dungeon024": [-24.0, 10.0, 24.0, -90.0], "Dungeon025": [0.0, 10.50001, -6.999954, -180.0], "Dungeon026": [15.0, 10.0, -39.0, 180.0], "Dungeon027": [4.0, 18.0, 24.0, -180.0], "Dungeon028": [0.0, 22.0, 31.0, -90.0], "Dungeon029": [0.0, 8.5, 105.5, -180.0], "Dungeon030": [0.0, 14.0, 86.0, 180.0], "Dungeon031": [-18.5, 16.0, 41.5, -45.0], "Dungeon032": [-48.0, 137.5, 89.0, 180.0], "Dungeon033": [-16.0, 18.0, 26.0, -90.0], "Dungeon034": [0.0, 10.0, 25.5, 89.47], "Dungeon035": [0.0, 16.0, 30.5, 180.0], "Dungeon036": [0.0, 10.0, 25.5, -180.0], "Dungeon037": [-22.0, 16.0, 17.5, -180.0], "Dungeon038": [-51.0, 47.5, 40.0, 90.0], "Dungeon039": [32.5, -2.0, 62.0, 90.0], "Dungeon040": [-75.5, 22.0, 75.5, 180.0], "Dungeon041": [-18.0, 12.0, 25.0, -180.0], "Dungeon042": [-26.0, 18.0, -6.0, -90.0], "Dungeon043": [0.0, 10.0, 15.5, -90.0], "Dungeon044": [-22.0, 14.0, 26.0, 180.0], "Dungeon045": [104.5, 8.5, 17.5, -90.0], "Dungeon046": [-26.0, 14.0, 20.0, -90.0], "Dungeon047": [8.0, 13.0, 57.0, -180.0], "Dungeon048": [-66.0, 11.0, 70.0, 270.0], "Dungeon049": [-2.0, 10.0, 22.5, -180.0], "Dungeon050": [-2.0, 10.0, 26.0, 90.0], "Dungeon051": [-4.0, -22.0, 82.0, 90.0], "Dungeon052": [18.5, 10.0, -25.0, 21.77], "Dungeon053": [0.0, -64.0, 58.0, 90.0], "Dungeon054": [0.0, 10.0, 84.5, -90.0], "Dungeon055": [42.5, 10.0, 24.5, 90.0], "Dungeon056": [-18.0, 34.0, 121.0, -90.0], "Dungeon057": [0.0, 10.0, 23.0, 45.0], "Dungeon058": [0.0, -6.0, 60.0, 90.0], "Dungeon059": [75.0, 40.5, 52.5, -180.0], "Dungeon060": [0.0, 14.0, 17.5, 90.0], "Dungeon061": [0.0, 16.0, 26.0, -180.0], "Dungeon062": [-0.5000002, 9.970004, 22.0, -180.0], "Dungeon063": [0.0, 10.0, 24.0, 180.0], "Dungeon064": [0.0, 16.0, 26.0, -90.0], "Dungeon065": [-25.0, 11.0, 16.0, 180.0], "Dungeon066": [0.0, 9.970004, 22.0, 90.0], "Dungeon067": [-1.0, 10.0, 26.5, -90.0], "Dungeon068": [0.0, 7.0, 36.5, -180.0], "Dungeon069": [22.0, 26.0, 24.0, -180.0], "Dungeon070": [0.0, 20.0, 68.0, -180.0], "Dungeon071": [0.0, 20.0, 68.0, 93.44], "Dungeon072": [0.0, 20.0, 68.0, 3.44], "Dungeon073": [0.0, 20.0, 68.0, 3.44], "Dungeon074": [0.0, 20.0, 68.0, 3.44], "Dungeon075": [0.0, 20.0, 68.0, 3.44], "Dungeon076": [0.0, 20.0, 68.0, 90.0], "Dungeon077": [0.0, 20.0, 68.0, 3.44], "Dungeon078": [0.0, 20.0, 68.0, 93.44], "Dungeon079": [0.0, 20.0, 68.0, 93.44], "Dungeon080": [0.0, 20.0, 68.0, -90.0], "Dungeon081": [0.0, 20.0, 68.0, 93.44], "Dungeon082": [0.0, 20.0, 68.0, 3.44], "Dungeon083": [0.0, 20.0, 68.0, -180.0], "Dungeon084": [0.0, 20.0, 68.0, 93.44], "Dungeon085": [0.0, 20.0, 68.0, -86.56], "Dungeon086": [0.0, 20.0, 68.0, 93.44], "Dungeon087": [0.0, 20.0, 68.0, 90.0], "Dungeon088": [0.0, 20.0, 68.0, 3.44], "Dungeon089": [0.0, 20.0, 68.0, 3.44], "Dungeon090": [0.0, 12.0, 26.0, 90.0], "Dungeon091": [0.0, 12.0, 26.0, 90.0], "Dungeon092": [0.0, 12.0, 26.0, -180.0], "Dungeon093": [0.0, 12.0, 26.0, -180.0], "Dungeon094": [0.0, 12.0, 26.0, 90.0], "Dungeon095": [0.0, 12.0, 26.0, -90.0], "Dungeon096": [0.0, 12.0, 26.0, -90.0], "Dungeon097": [0.0, 12.0, 26.0, 90.0], "Dungeon099": [0.0, 20.0, 38.5, -180.0], "Dungeon100": [0.0, 12.0, 26.0, -180.0], "Dungeon101": [0.0, 12.0, 26.0, -90.0], "Dungeon102": [0.0, 12.0, 26.0, 90.0], "Dungeon103": [0.0, 12.0, 26.0, 90.0], "Dungeon104": [0.0, 12.0, 26.0, 90.0], "Dungeon105": [0.0, 12.0, 26.0, 90.0], "Dungeon106": [0.0, 12.0, 26.0, -180.0], "Dungeon108": [0.0, 12.0, 26.0, -90.0], "Dungeon109": [0.0, 12.0, 26.0, 90.0], "Dungeon110": [0.0, 12.0, 26.0, -90.0], "Dungeon111": [0.0, 12.0, 26.0, 90.0], "Dungeon112": [0.0, 12.0, 26.0, 90.0], "Dungeon113": [0.0, 12.0, 26.0, -90.0], "Dungeon114": [0.0, 12.0, 26.0, -90.0], "Dungeon115": [0.0, 12.0, 26.0, 90.0], "Dungeon117": [0.0, 12.0, 26.0, -90.0], "Dungeon118": [0.0, 12.0, 26.0, 90.0], "Dungeon119": [0.0, 12.0, 26.0, -90.0], "Dungeon120": [70.5, 19.0, 40.0, 90.0], "Dungeon121": [0.0, 22.0, 58.5, -180.0], "Dungeon122": [99.0, 14.0, 52.0, -90.0], "Dungeon123": [-76.0, 42.5, 109.0, -90.0], "Dungeon124": [-10.0, 31.5, 53.5, -90.0], "Dungeon125": [0.0, -27.0, 75.1, -90.0], "Dungeon126": [16.0, 16.0, -30.5, 180.0], "Dungeon127": [98.0, -36.5, 0.0, 0.0], "Dungeon128": [-10.0, 2.0, -32.5, 90.0], "Dungeon129": [0.0, 24.5, 79.0, -90.0], "Dungeon130": [-133.5, 31.5, 60.0, 180.0], "Dungeon131": [35.0, -77.5, 118.5, 90.0], "Dungeon132": [-19.5, 8.0, 67.0, -90.0], "Dungeon133": [136.0, 16.0, 152.5, 90.0], "Dungeon134": [314.5, -32.5, 49.5, 180.0], "Dungeon135": [0.0, 20.0, 68.0, -180.0]}
+
 	},
 
 	/* Offsets */
@@ -402,14 +406,17 @@ SavegameEditor={
 		// Coordinates
 		var px = 0, py = 0, pz = 0;
 		var off = SavegameEditor._searchHash(SavegameEditor.Constants.PLAYER_LOCATION);
+		var rotation = SavegameEditor._searchHash(SavegameEditor.Constants.PLAYER_ROTATION);
 		if (off){
 			px = tempFile.readFloat32(off+4)
 			py = tempFile.readFloat32(off+12)
 			pz = tempFile.readFloat32(off+20)
+			pd = tempFile.readFloat32(rotation+4)
 		}
 		setValue('pos-x',px)
 		setValue('pos-y',py)
 		setValue('pos-z',pz)
+		setValue('pos-d',pd)
 		// map, maptype
 		setValue('pos-map',this._readString(this.Offsets.MAP))
 		setValue('pos-maptype',this._readString(this.Offsets.MAPTYPE))
@@ -510,12 +517,14 @@ SavegameEditor={
 		}
 		
 		// position
-		var px = 0, py = 0, pz = 0;
+		var px = 0, py = 0, pz = 0, pd = 0;
 		var off = SavegameEditor._searchHash(SavegameEditor.Constants.PLAYER_LOCATION);
+		var rot = SavegameEditor._searchHash(SavegameEditor.Constants.PLAYER_ROTATION);
 		if (off){
 			tempFile.writeFloat32(off+4, getValue('pos-x'))
 			tempFile.writeFloat32(off+12, getValue('pos-y'))
 			tempFile.writeFloat32(off+20, getValue('pos-z'))
+			tempFile.writeFloat32(rot+4, getValue('pos-d'))
 		}
 		// map, maptype
 		this._writeString(this.Offsets.MAP, getValue('pos-map'))
@@ -691,7 +700,26 @@ function fixPCCoords() {
 		setValue('pos-x',0)
 		setValue('pos-y',-0.4)
 		setValue('pos-z',64.5)
+	} else if (getValue('pos-maptype') == 'CDungeon') {
+		fixCDungeonCoords()
 	}
+}
+
+function fixCDungeonCoords() {
+	let dungeon = getValue('pos-map')
+	let vals = SavegameEditor.Constants.CDUNGEON_STARTS
+	let pos = vals[dungeon]
+	setValue('pos-x',pos[0])
+	setValue('pos-y',pos[1])
+	setValue('pos-z',pos[2])
+	// so far using DgnObj_EntranceElevator_A_01 for the position is fine
+	// but doesn't work for rotation.
+	//setValue('pos-d',pos[3])
+}
+
+function setDungeon() {
+	setValue('pos-maptype', 'CDungeon')
+	setValue('pos-map', 'DungeonXXX')
 }
 
 function guessMainFieldGridInternal(xpos, zpos) {
